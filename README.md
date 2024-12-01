@@ -1,8 +1,3 @@
-# -PhysicsInformedNNs-StepResponse-
-Here’s a concise and professional README for your repository:
-
----
-
 # PhysicsInformedNNs-StepResponse
 
 This project explores the use of **Physics-Informed Neural Networks (PINNs)** to solve the unit step response of an underdamped second-order system. PINNs are used to solve differential equations by embedding the physics of the problem into the loss function of a neural network.
