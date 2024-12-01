@@ -9,9 +9,8 @@ This project explores the use of **Physics-Informed Neural Networks (PINNs)** to
 
 ## Problem Overview  
 The differential equation under study models the dynamic response of systems subject to a unit step input:
-\[
-\frac{d^2 y(t)}{dt^2} + 2 \zeta \omega_n \frac{dy(t)}{dt} + \omega_n^2 y(t) = \omega_n^2 u(t)
-\]  
+ >> d²y(t)/dt² + 2ζωₙ dy(t)/dt + ωₙ²y(t) = ωₙ²u(t) >>
+ 
 ### Key Features:  
 - Solves for the response of an underdamped system (\(0 < \zeta < 1\)).
 - Compares the PINN-based solution with the analytical solution.
